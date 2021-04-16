@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'DGSahabah-Bold';
+    src: url('../fonts/DGSahabah-Bold.woff2') format('woff2'),
+        url('../fonts/DGSahabah-Bold.woff') format('woff'),
+        url('../fonts/DGSahabah-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DGSahabah-Light';
+    src: url('../fonts/DGSahabah-Light.woff2') format('woff2'),
+        url('../fonts/DGSahabah-Light.woff') format('woff'),
+        url('../fonts/DGSahabah-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DGSahabah';
+    src: url('../fonts/DGSahabah.woff2') format('woff2'),
+        url('../fonts/DGSahabah.woff') format('woff'),
+        url('../fonts/DGSahabah.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	font-family: 'DGSahabah', sans-serif;
+	direction: rtl;
+}
+hr {
+    color: #676767;
+}
+body {
+	background: url(../img/main-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	box-shadow: none;
+	position: relative;
+}
+body:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: #15263054;
+  z-index: -1;
+}
+.branding-wrapper .logo-img {
+    max-width: 200px;
+    width: 100%;
+}
+main.px-3 {
+    background: #152630;
+    padding: 20px 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    box-shadow: inset 0 1px 1px 0 rgb(255 255 255 / 30%);
+    z-index: 20;
+}
+.bg-white {
+    background-color: #97cc1a!important;
+}
+.steps-container h1 {
+    font-size: 15px;
+    color: #97cc1a;
+    text-align: right;
+}
+h1, p {
+	text-align: right;
+}
+p.participate-button, footer p {
+	text-align: center;
+}
+footer p {
+	margin: 10px 0;
+    color: #fff;
+}
+a.office-form-info-children, .office-form.introduction-for-responser-container {
+    display: none !important;
+}
